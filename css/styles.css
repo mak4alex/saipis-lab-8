@@ -1,0 +1,29 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.container h1 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+li:hover {
+    background-color: #5bc0de;
+}
+
+
+@keyframes blink {
+    50% { color: rgb(0, 0, 255); }
+    51% { color: rgba(0, 0, 255, 0); }
+    100% { color: rgba(0, 0, 255, 0); }
+}
+
+@-webkit-keyframes blink {
+    50% { color: rgb(0, 0, 255); }
+    51% { color: rgba(0, 0, 255, 0); }
+    100% { color: rgba(0, 0, 255, 0); }
+}
+
+#table {
+    margin-top: 2%;
+}
